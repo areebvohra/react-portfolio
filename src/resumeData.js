@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
+    "name": "Areeb Vohra",
     "role": "Frontend Developer and Data Scientist",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
@@ -8,17 +8,17 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"#",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/AreebVohra",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"#",
           "className":"fa fa-twitter"
         }
       ],
@@ -27,7 +27,7 @@ let resumeData = {
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
+        "UniversityName":"The Insitute of Information Technology",
         "specialization":"Some specialization",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",
