@@ -10,7 +10,7 @@ React-Portfolio is being sponsored by the following tool; please help to support
 A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
 
 ## Preview
-![Preview](https://ibb.co/dKzSw1P)
+![Preview](https://ibb.co/dKzSw1P/Capture.png)
 
 ## How to use
 1. Clone/Download the repo.
