@@ -1,63 +1,56 @@
 import React, { Component } from 'react';
-export default class Resume extends Component {
+
+class Resume extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+
+    if (this.props.data) {
+      var skillmessage = this.props.data.skillmessage;
+      var education = this.props.data.education.map(function (education) {
+        return <div key={education.school}><h3>{education.school}</h3>
+          <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+          <p>{education.description}</p></div>
+      })
+      var work = this.props.data.work.map(function (work) {
+        return <div key={work.company}><h3>{work.company}</h3>
+          <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+          <p>{work.description}</p>
+        </div>
+      })
+      var skills = this.props.data.skills.map(function (skills) {
+        var className = 'bar-expand ' + skills.name.toLowerCase();
+        return <li key={skills.name}><span style={{ width: skills.level, textAlign: 'end', color: '#fff' }} className={className}>{skills.level}</span><em>{skills.name}</em></li>
+      })
+    }
+
     return (
       <section id="resume">
 
         <div className="row education">
-
           <div className="three columns header-col">
             <h1><span>Education</span></h1>
           </div>
 
           <div className="nine columns main-col">
-            {
-              resumeData.education && resumeData.education.map((item) => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      <h3>{item.UniversityName}</h3>
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.Passing}</em></p>
-                      {/* <p>
-                          {item.Achievements}
-                          </p> */}
-                    </div>
-                  </div>
-                )
-              })
-            }
+            <div className="row item">
+              <div className="twelve columns">
+                {education}
+              </div>
+            </div>
           </div>
         </div>
+
+
         <div className="row work">
+
           <div className="three columns header-col">
             <h1><span>Work</span></h1>
           </div>
 
           <div className="nine columns main-col">
-            {
-              resumeData.work && resumeData.work.map((item) => {
-                return (
-                  <div className="row item">
-                    <div className="twelve columns">
-                      <h3>{item.CompanyName}</h3>
-                      <p className="info">
-                        {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.Joining} - {item.Leaving}</em></p>
-                      <p>
-                        {item.level}
-                      </p>
-                    </div>
-
-                  </div>
-
-                )
-              })
-            }
+            {work}
           </div>
         </div>
+
 
 
         <div className="row skill">
@@ -68,33 +61,19 @@ export default class Resume extends Component {
 
           <div className="nine columns main-col">
 
-            <p>
-              {resumeData.skillsDescription}
+            <p>{skillmessage}
             </p>
 
             <div className="bars">
-
               <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return (
-                      <li>
-                        <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                        </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
-
+                {skills}
               </ul>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
     );
   }
 }
+
+export default Resume;
