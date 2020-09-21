@@ -87,46 +87,34 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Leading Business Plans",
+        "category": "Business",
+        "image": "leadingbusinessplans.png",
+        "url": "https://leadingbusinessplans.com/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Mortgage Amortization Calculator",
+        "category": "Finance",
+        "image": "mortgage-amortization.png",
+        "url": "https://ilovemakingmoney.com/calculator-test/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Compound Interest Caclulator",
+        "category": "Finance",
+        "image": "compound-interest-calculator.png",
+        "url": "https://ilovemakingmoney.com/compound-interest-calculator/"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
+        "text": "Areebvohra did a great job working on website for a real estate agent. He was able to completely design custom Wordpress site that looked and functioned like another site that we had liked. If you need custom Wordpress website design then he is the guy you should use.",
+        "user": "mediaproz - Fiverr Buyer"
       },
       {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "Very good, patient and very professional! Will use him again for other websites. Highly recommended!",
+        "user": "bizconsultant4u - Fiverr Buyer"
       }
     ]
   }
