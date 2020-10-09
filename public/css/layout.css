@@ -1163,6 +1163,7 @@ footer a:hover, footer a:focus {
 footer .copyright {
    margin: 0;
    padding: 0;
+   color: #525252;
 }
 
 footer .copyright li {
