@@ -61,8 +61,7 @@ class Resume extends Component {
 
           <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+            <p style={{ fontWeight: 'bold', color: '#313131', fontSize: 18 }}>{skillmessage}</p>
 
             <div className="bars">
               <ul className="skills">
