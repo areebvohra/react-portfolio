@@ -2,10 +2,10 @@
   "main": {
     "name": "Areeb Vohra",
     "occupation": "Mobile Application Developer",
-    "description": "I like dabbling in various parts of frontend and backend development and like to explore new technological innovations in the software world.  I have developed a portfolio of applications on different platforms including react native and flutter.",
+    "description": "I like dabbling in various parts of frontend and backend development and like to explore new technological innovations in the software world.  I have developed a portfolio of applications on different platforms including react native and flutter",
     "image": "profilepic.jpg",
-    "bio": "Graduated from Hamdard University with a Bachelor's Degree in Computer Science. Have Experience in Android/IOS (Hybrid) and Web Application Development using the Latest technologies like Flutter, React Native, React.js, MongoDB and Firebase.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "bio": "Graduated from Hamdard University with a Bachelor's Degree in Computer Science. Have Experience in Android/IOS (Hybrid) and Web Application Development using the Latest technologies like Flutter, React Native, React.js, MongoDB and Firebase",
+    "contactmessage": "If you have any queries and you want to start a new project you can contact me via email or whatsapp and i'll get back to you",
     "email": "areebvohra@gmail.com",
     "phone": "(+92) 342 211 4890",
     "address": {
