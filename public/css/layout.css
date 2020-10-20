@@ -370,8 +370,8 @@ ul#nav li.current a {
    position: relative;
    margin-bottom: 40px;
    background: #ccc;
-   height: 25px;
-   border-radius: 3px;
+   height: 20px;
+   border-radius: 10px;
 }
 
 .bars li em {
@@ -390,11 +390,11 @@ ul#nav li.current a {
    top: 0;
    margin: 0;
    padding-right: 24px;
-   background: #313131;
+   /* background: #313131; */
    display: inline-block;
-   height: 25px;
-   line-height: 24px;
-   border-radius: 3px 0 0 3px;
+   height: 20px;
+   line-height: 18px;
+   border-radius: 10px 0 0 10px;
 }
 
 /*

@@ -60,27 +60,33 @@
     "skills": [
       {
         "name": "React Native",
-        "level": "70%"
+        "level": "70%",
+        "color": "#5b97e3"
       },
       {
         "name": "ReactJs",
-        "level": "60%"
+        "level": "60%",
+        "color": "#00a1ff"
       },
       {
         "name": "Git",
-        "level": "70%"
+        "level": "70%",
+        "color": "#ad5b5b"
       },
       {
         "name": "NodeJS",
-        "level": "50%"
+        "level": "50%",
+        "color": "#43853d"
       },
       {
         "name": "WordPress",
-        "level": "90%"
+        "level": "90%",
+        "color": "#0085ba"
       },
       {
         "name": "Flutter",
-        "level": "50%"
+        "level": "50%",
+        "color": "#0276e8"
       }
     ]
   },
