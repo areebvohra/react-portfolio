@@ -7,9 +7,9 @@
     "bio": "Graduated from Hamdard University with a Bachelor's Degree in Computer Science. Have Experience in Android/IOS (Hybrid) and Web Application Development using the Latest technologies like Flutter, React Native, React.js, MongoDB and Firebase",
     "contactmessage": "If you have any queries and you want to start a new project you can contact me via email or whatsapp and i'll get back to you",
     "email": "areebvohra@gmail.com",
-    "phone": "(+92) 342 211 4890",
+    "phone": "(+971) 52 677 4821",
     "address": {
-      "city": "Karachi, Pakistan"
+      "city": "Dubai, United Arab Emirates"
     },
     "website": "http://",
     "resumedownload": "/download/areeb-vohra.pdf",
@@ -32,7 +32,7 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers.",
+    "skillmessage": "Here is a list of my professional skills and languages",
     "education": [
       {
         "school": "Hamdard University",
@@ -43,51 +43,70 @@
         "school": "Aptech Computer Education",
         "degree": "ACCP-PRO",
         "graduated": "December 2018"
+      },
+      {
+        "school": "Govt. degree college Gulshan-e-Iqbal",
+        "degree": "Intermediate, Pre-Engineering",
+        "graduated": "August 2014"
       }
     ],
     "work": [
       {
-        "company": "Verizone Technologies",
-        "title": "React Native Developer",
-        "years": "December 2019 - May 2020"
+        "company": "Spotii in a Box",
+        "title": "Software Engineer - I",
+        "years": "September 2022 - January 2023"
       },
       {
-        "company": "Webtrica",
+        "company": "Techlabs-cc - Contract",
+        "title": "Software Engineer (Full Stack)",
+        "years": "March 2022 - July 2022"
+      },
+      {
+        "company": "Nexus Corporation-Ltd",
+        "title": "Software Engineer (Web & Mobile Apps)",
+        "years": "December 2020 - March 2022"
+      },
+      {
+        "company": "Webtrica Solution & Services",
         "title": "React Native Developer",
-        "years": "June 2019 - November 2019"
+        "years": "June 2019 - May 2020"
+      },
+      {
+        "company": "JUST DIGITAL (PVT) LTD",
+        "title": "Intern (Web Developer)",
+        "years": "March 2019 - May 2019"
       }
     ],
     "skills": [
-      {
-        "name": "React Native",
-        "level": "70%",
-        "color": "#5b97e3"
-      },
-      {
-        "name": "ReactJs",
-        "level": "60%",
-        "color": "#00a1ff"
-      },
-      {
-        "name": "Git",
-        "level": "70%",
-        "color": "#ad5b5b"
-      },
-      {
-        "name": "NodeJS",
-        "level": "50%",
-        "color": "#43853d"
-      },
-      {
-        "name": "WordPress",
-        "level": "90%",
-        "color": "#0085ba"
-      },
-      {
-        "name": "Flutter",
-        "level": "50%",
-        "color": "#0276e8"
-      }
+      "Javascript",
+      "HTML5",
+      "CSS3",
+      "React Native",
+      "React Redux",
+      "React JS",
+      "Node JS",
+      "Vue JS",
+      "Express JS",
+      "Next JS",
+      "Angular JS",
+      "Typescript",
+      "Vercel",
+      "Tailwind CSS",
+      "SvelteKit",
+      "ORM",
+      "Django Framework",
+      "Python",
+      "C++",
+      "C#",
+      "JAVA",
+      "Dart",
+      "Firebase",
+      "Mongo DB",
+      "PostgreSQL",
+      "MySQL",
+      "SQL Server",
+      "Bash",
+      "Powershell"
     ]
   },
   "portfolio": {
